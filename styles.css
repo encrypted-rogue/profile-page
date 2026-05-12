@@ -1,15 +1,22 @@
 body {
-  font-family: DynaPuff, sans-serif;
   color: #f8333c;
   background-color: #fcab10;
 }
 
-@font-face {
-  font-family: 'DynaPuff';
-  src: url('assets/DynaPuff_Condensed-Regular.ttf');
+.xanh-mono-regular {
+  font-family: 'Xanh Mono', monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.xanh-mono-regular-italic {
+  font-family: 'Xanh Mono', monospace;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .name {
+  font-size: larger;
   justify-content: center;
   display: flex;
   margin: 80px;
@@ -21,6 +28,7 @@ body {
 }
 
 .about-myself {
+  font-size: medium;
   display: flex;
   background-color: #2b9eb3;
   color: #dbd5b5;
