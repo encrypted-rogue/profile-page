@@ -1,22 +1,28 @@
-.name {
-    justify-content: center;
-    display: flex;
-    margin: 80px;
-    padding: 40px;
-    border-radius: 20px;
-    background-color:  #23F0C7;
-    margin-left: auto;
-    margin-right: auto;
-}
 body {
-    font-family: 'Times New Roman', Times, serif;
-    color: #6F732F;
-    background-color: #071013;
+  font-family: DynaPuff, sans-serif;
+  color: #f8333c;
+  background-color: #fcab10;
+}
+
+@font-face {
+  font-family: 'DynaPuff';
+  src: url('assets/DynaPuff_Condensed-Regular.ttf');
+}
+
+.name {
+  justify-content: center;
+  display: flex;
+  margin: 80px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #44af69;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-myself {
-    display: flex;
-    background-color: #BAA898;
-    color: #6457A6;
-    justify-content: space-around;
+  display: flex;
+  background-color: #2b9eb3;
+  color: #dbd5b5;
+  justify-content: space-around;
 }
